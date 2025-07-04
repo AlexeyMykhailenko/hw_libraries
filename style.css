@@ -1,0 +1,29 @@
+body{
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#btn-container{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+#start-game{
+    background-color: green;
+    border-radius: 4px;
+}
+
+#restart{
+    background-color: red;
+    border-radius: 4px;
+}
+
+#chart{
+    width: 1200px;
+    height: 1000px;
+}
